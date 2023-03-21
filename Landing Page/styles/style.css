@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(73, 10, 73);
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#titulo{
+    line-height: 22px;
+    flex-direction: column;
+}
+
+li{
+    display: inline-block;
+    margin: 8px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(124, 9, 124);
+    transition: 0.4s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(124, 9, 124);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(124, 9, 124);
+    color: white;
+    transition: 0.5s all;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+ 
+}
+
+img{
+    width: 480px;
+    margin-left: 200px;
+    }
+
+h2{
+    font-size: 67px;
+}
+
+span{
+    color: rgb(136, 6, 136);
+}
+
+p{
+    line-height: 25px;
+    max-width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: rgb(124, 9, 124);
+    font-weight: bold;
+
+}
+
+input{
+    margin-top: 14px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
