@@ -1,0 +1,13 @@
+@media (min-width:1280px)  {
+    .flex-container{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        
+        }
+    .flex-item{
+        
+    }
+    
+}
+   
