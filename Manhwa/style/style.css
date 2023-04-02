@@ -9,6 +9,14 @@ body{
     color: rgb(169, 158, 158);
     width: 100%;
     height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.tudo{
+    padding: 0px;
+    margin: 0px;
+    width: 100%vw;
+    height: 100%vh;
 }
 
 .flex-container{

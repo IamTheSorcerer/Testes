@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+}
+body{
+    background-color: rgb(12, 10, 13);
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+
+header{ 
+    color: rgb(255, 255, 255);
+}
+
+ #imagem{
+   text-align: center;
+   width: 180x;
+   height: 200px;
+   
+   
+ }
+ #imagem > img{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 248, 248);
+    height: 150px;
+ }
